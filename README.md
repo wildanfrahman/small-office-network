@@ -47,14 +47,14 @@ VLAN	Department	Network	Gateway
 
 # Device Naming
 
-Device	Name
-Router	R1
-Core Switch	SW-CORE
-Access Switch	SW-ACCESS
-HR PC	HR-PC1
-IT PCs	IT-PC1, IT-PC2
-Guest PCs	GUEST-PC1, GUEST-PC2
-Server	HR-SERVER
+| Device | Name |
+| Router |  R1  |
+| Core Switch |	SW-CORE |
+| Access Switch | SW-ACCESS |
+| HR PC | HR-PC1 |
+| IT PCs | IT-PC1, IT-PC2 |
+| Guest PCs | GUEST-PC1, GUEST-PC2 |
+| Server | HR-SERVER |
 
 ---
 
@@ -81,10 +81,10 @@ ACL diterapkan pada interface VLAN 30 untuk membatasi akses internal.
 
 # IP Addressing
 
-## Dynamic Host Configuration (DHCP)
+### Dynamic Host Configuration (DHCP)
 Client PC menggunakan DHCP yang dikonfigurasi pada router.
 
-## Static IP
+### Static IP
 HR-SERVER menggunakan static IP:
 
 Device	IP Address
@@ -94,9 +94,9 @@ HR-SERVER	192.168.10.10
 
 # Verification & Testing
 
-Successful DHCP Assignment
+### Successful DHCP Assignment
 - Client berhasil mendapatkan IP sesuai VLAN masing-masing.
-Inter-VLAN Routing
+### Inter-VLAN Routing
 - VLAN dapat berkomunikasi melalui router.
-ACL Restriction
+### ACL Restriction
 - Guest VLAN gagal mengakses VLAN internal sesuai policy.
