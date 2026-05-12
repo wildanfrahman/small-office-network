@@ -48,6 +48,7 @@ VLAN	Department	Network	Gateway
 # Device Naming
 
 | Device | Name |
+| --- | --- |
 | Router |  R1  |
 | Core Switch |	SW-CORE |
 | Access Switch | SW-ACCESS |
