@@ -72,7 +72,7 @@ Topologi menggunakan:
 
 ---
 
-Security Policy
+# Security Policy
 
 Guest VLAN (VLAN 30) tidak diizinkan mengakses internal VLAN:
 - VLAN 10 (HR)
