@@ -28,9 +28,9 @@ Topologi menggunakan:
 
 | VLAN | Department | Network	Gateway |
 | --- | --- | --- |
-|10|HR|192.168.10.0/24|192.168.10.1|
-|20IT|192.168.20.0/24|192.168.20.1|
-|30Guest|192.168.30.0/24|192.168.30.1|
+| 10 | HR | 192.168.10.0/24 | 192.168.10.1 |
+| 20 | IT | 192.168.20.0/24 | 192.168.20.1 |
+| 30 | Guest | 192.168.30.0/24 | 192.168.30.1 |
 
 ---
 
@@ -89,8 +89,9 @@ Client PC menggunakan DHCP yang dikonfigurasi pada router.
 ### Static IP
 HR-SERVER menggunakan static IP:
 
-Device	IP Address
-HR-SERVER	192.168.10.10
+| Device | IP Address |
+| --- | --- |
+| HR-SERVER | 192.168.10.10 |
 
 ---
 
