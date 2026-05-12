@@ -77,6 +77,7 @@ Topologi menggunakan:
 Guest VLAN (VLAN 30) tidak diizinkan mengakses internal VLAN:
 - VLAN 10 (HR)
 - VLAN 20 (IT)
+
 ACL diterapkan pada interface VLAN 30 untuk membatasi akses internal.
 
 ---
